@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "JiudianAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "JiudianAbility_label",
+      "value": "label"
+    }
+  ]
+}

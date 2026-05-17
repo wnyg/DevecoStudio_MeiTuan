@@ -1,0 +1,96 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\zlwnyg\\.ohos\\config\\default_MeiTuan2026_ZuPRLb8cNESPShqpEF8AgG2VIy4aNk9FffR7aPigfpo=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001A6D78BF49850604848C8D7D338B3D0102F921233C4BE85CF79EC2CC0946F77ABCA73DC8741ADF",
+          "profile": "C:\\Users\\zlwnyg\\.ohos\\config\\default_MeiTuan2026_ZuPRLb8cNESPShqpEF8AgG2VIy4aNk9FffR7aPigfpo=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\zlwnyg\\.ohos\\config\\default_MeiTuan2026_ZuPRLb8cNESPShqpEF8AgG2VIy4aNk9FffR7aPigfpo=.p12",
+          "storePassword": "0000001AB5AE818B74B8472500B5DF342C1F8C45BCE4E9787FCA9F0474DAB85050EAC62C6376C385AB1B"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "6.0.0(20)",
+        "compatibleSdkVersion": "6.0.0(20)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "waimai",
+      "srcPath": "./waimai",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "qixing",
+      "srcPath": "./qixing",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "jiudian",
+      "srcPath": "./jiudian",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mylibrary01",
+      "srcPath": "./mylibrary01",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mylibrary2",
+      "srcPath": "./mylibrary2",
+    }
+  ]
+}

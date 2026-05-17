@@ -1,0 +1,13 @@
+{
+  "name": "waimai",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "mylibrary01": "file:../mylibrary01",
+    "mylibrary2": "file:../mylibrary2"
+  }
+}
+

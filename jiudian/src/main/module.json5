@@ -1,0 +1,26 @@
+{
+  "module": {
+    "name": "jiudian",
+    "type": "feature",
+    "description": "$string:module_desc",
+    "mainElement": "JiudianAbility",
+    "deviceTypes": [
+      "phone"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "JiudianAbility",
+        "srcEntry": "./ets/jiudianability/JiudianAbility.ets",
+        "description": "$string:JiudianAbility_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:JiudianAbility_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      }
+    ]
+  }
+}

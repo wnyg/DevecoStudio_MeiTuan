@@ -1,0 +1,26 @@
+{
+  "module": {
+    "name": "qixing",
+    "type": "feature",
+    "description": "$string:module_desc",
+    "mainElement": "QixingAbility",
+    "deviceTypes": [
+      "phone"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "QixingAbility",
+        "srcEntry": "./ets/qixingability/QixingAbility.ets",
+        "description": "$string:QixingAbility_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:QixingAbility_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      }
+    ]
+  }
+}
